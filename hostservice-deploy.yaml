@@ -13,7 +13,7 @@ spec:
     spec:
       containers:
       - name: hostservice-container
-        image: kozyaura/node-app:1.0
+        images: kozyaura/node-app:c376d4da09e90196bcb3d35b72fbc3b06782e188
         resources:
           limits:
             memory: "128Mi"
